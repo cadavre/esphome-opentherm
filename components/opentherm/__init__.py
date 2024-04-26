@@ -53,4 +53,5 @@ async def to_code(config: Dict[str, Any]) -> None:
         generate.define_readers(const.INPUT_SENSOR, input_sensors)
         generate.add_messages(var, input_sensors, schema.INPUTS)
 
-    cg.add_library("ihormelnyk/OpenTherm Library", "1.1.5")
+#   cg.add_library("ihormelnyk/OpenTherm Library", "1.1.5")
+#   Using version loaded via ESPHome's .yaml instead.
