@@ -195,10 +195,6 @@ The following switches are available:
   Defaults to *False*
 - `ch2_active`: Central Heating 2 active
   Defaults to *False*
-- `sm_active`: Summer mode active
-  Defaults to *False*
-- `dhw_block`: DHW Blocking
-  Defaults to *False*
 - `lock_out_reset`: Boiler Lock-out Reset
   Defaults to *False*
 <!-- END schema_docs:switch -->
